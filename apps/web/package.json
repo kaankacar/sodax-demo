@@ -1,0 +1,28 @@
+{
+  "name": "@sodax-demo/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sodax/dapp-kit": "2.0.0-rc.1",
+    "@sodax/sdk": "2.0.0-rc.1",
+    "@sodax/wallet-sdk-react": "2.0.0-rc.1",
+    "@tanstack/react-query": "^5.62.0",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "2.29.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}

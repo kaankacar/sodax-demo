@@ -1,0 +1,17 @@
+{
+  "name": "sodax-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SODAX SDK showcase for Stellar devs — a narrated CLI tour + a Next.js dApp",
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "tour": "pnpm --filter @sodax-demo/tour tour",
+    "web": "pnpm --filter @sodax-demo/web dev",
+    "web:build": "pnpm --filter @sodax-demo/web build",
+    "web:typecheck": "pnpm --filter @sodax-demo/web typecheck",
+    "tour:typecheck": "pnpm --filter @sodax-demo/tour typecheck"
+  }
+}
